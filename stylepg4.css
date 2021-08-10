@@ -22,14 +22,14 @@ main {
     padding: 20px 0;
 }
 
-.patamon {
-    width: 250px;
-    height: 250px;
+.patamontailmon {
+    width: 500px;
+    height: 372px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .caixatexto {
@@ -38,7 +38,7 @@ main {
     width: 750px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
+    margin-top: 35px;
     margin-bottom: 15px;
     padding: 20px 0;
     box-sizing: border-box;
@@ -53,15 +53,17 @@ main {
     padding: 26px 20px;
 }
 
-.escola {
-    position: relative;
-    width: 750px;
+.digiovo {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
     margin-bottom: 15px;
-    padding: 20px 0;
 }
+ .digiovo:hover {
+    box-sizing: border-box;
+    border: 5px solid #555b6e;
+ }
 
 footer {
     text-align: center;

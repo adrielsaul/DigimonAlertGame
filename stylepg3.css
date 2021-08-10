@@ -22,14 +22,14 @@ main {
     padding: 20px 0;
 }
 
-.patamon {
-    width: 250px;
-    height: 250px;
+.angemon {
+    width: 351px;
+    height: 354px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .caixatexto {
@@ -38,8 +38,8 @@ main {
     width: 750px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 25px;
     padding: 20px 0;
     box-sizing: border-box;
     border: 2px solid #555b6e;
@@ -51,16 +51,6 @@ main {
     font-family: 'STIX Two Text', serif;
     font-size: 22px;
     padding: 26px 20px;
-}
-
-.escola {
-    position: relative;
-    width: 750px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 20px 0;
 }
 
 footer {

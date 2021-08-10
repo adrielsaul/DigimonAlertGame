@@ -64,8 +64,6 @@ main {
 }
 
 #img:hover {
-    width: 200px;
-    height: 200px;
     box-sizing: border-box;
     border: 5px solid #555b6e;
 }
