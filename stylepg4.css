@@ -13,7 +13,7 @@ h1 {
     font-family: 'Orbitron', sans-serif;
     font-size: 54px;
     text-transform: uppercase;
-    color:#bee3db;
+    color: #bee3db;
     text-align: center;
 }
 
@@ -60,10 +60,11 @@ main {
     margin-top: 15px;
     margin-bottom: 15px;
 }
- .digiovo:hover {
+
+.digiovo:hover {
     box-sizing: border-box;
     border: 5px solid #555b6e;
- }
+}
 
 footer {
     text-align: center;
