@@ -1,0 +1,82 @@
+header {
+    background: #555b6e;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 54px;
+    text-transform: uppercase;
+    color:#bee3db;
+    text-align: center;
+}
+
+main {
+    background: #89b0ae;
+    padding: 20px 0;
+}
+
+.angemon {
+    width: 351px;
+    height: 354px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.caixatexto {
+    background: #bee3db;
+    position: relative;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    padding: 20px 0;
+    box-sizing: border-box;
+    border: 2px solid #555b6e;
+    border-radius: 10px;
+}
+
+.caixatexto:hover {
+    color: #FFFFFF !important;
+    background: #555b6e;
+}
+
+.caixatexto p {
+    text-align: center;
+    font-family: 'STIX Two Text', serif;
+    font-size: 22px;
+    padding: 26px 20px;
+}
+
+.ogremon {
+    position: relative;
+    width: 691px;
+    height: 361px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 25px 0;
+}
+
+footer {
+    text-align: center;
+    background: #555b6e;
+    padding: 20px 0;
+}
+
+.copyright {
+    color: #bee3db;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
