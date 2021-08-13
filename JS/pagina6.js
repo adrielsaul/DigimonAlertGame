@@ -3,7 +3,7 @@ function escolha() {
         var caminho = prompt('Para recomeçar digite 1');
        
         if (caminho == 1) {
-            return location = ('../HTML/pagina1.html');
+            return location = ('../HTML/index.html');
        
         } else {
             alert('Escolha uma opção válida');
