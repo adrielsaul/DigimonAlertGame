@@ -59,12 +59,10 @@
     #img {
         width: 200px;
         height: 200px;
-    }
-    
-    #img:hover {
         box-sizing: border-box;
         border: 5px solid #555b6e;
     }
+    
     
     li p {
         text-align: center;
@@ -90,6 +88,8 @@
     .botao {
         display: flex;
         justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     
     button {
@@ -103,6 +103,7 @@
         border: 2px solid #555B6E;
         background: #555B6E;
         background: linear-gradient(to top, #555B6E, #63B8EE);
+        cursor: pointer;
     }
     
     button:hover {

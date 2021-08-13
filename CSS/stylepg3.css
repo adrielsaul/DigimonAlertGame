@@ -49,6 +49,7 @@ main {
 .caixatexto:hover {
     color: #FFFFFF !important;
     background: #555b6e;
+    cursor: pointer;
 }
 
 .caixatexto p {

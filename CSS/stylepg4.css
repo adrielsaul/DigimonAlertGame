@@ -53,15 +53,18 @@ main {
     padding: 26px 20px;
 }
 
+.caixatexto:hover {
+    color: #FFFFFF !important;
+    background: #555b6e;
+    cursor: pointer;
+}
+
 .digiovo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-.digiovo:hover {
     box-sizing: border-box;
     border: 5px solid #555b6e;
 }
