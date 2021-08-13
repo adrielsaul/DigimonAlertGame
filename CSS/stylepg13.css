@@ -1,0 +1,96 @@
+header {
+    background: #010511;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 54px;
+    text-transform: uppercase;
+    color:#e60b0b;
+    text-align: center;
+}
+
+main {
+    background: #232525;
+    padding: 20px 0;
+    height: 900px;
+}
+
+.blackwargreymon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.caixatexto {
+    background: #010511;
+    color: blanchedalmond;
+    position: relative;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    margin-bottom: 25px;
+    padding: 20px 0;
+    box-sizing: border-box;
+    border: 2px solid #555b6e;
+    border-radius: 10px;
+}
+
+.caixatexto p {
+    text-align: center;
+    font-family: 'STIX Two Text', serif;
+    font-size: 22px;
+    padding: 26px 20px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+button {
+    font-family: helvetica;
+    color: #FFFFFF !important;
+    font-size: 18px;
+    text-shadow: 1px 1px 0px #010511;
+    box-shadow: 1px 1px 1px #010511;
+    padding: 7px 23px;
+    border-radius: 14px;
+    border: 2px solid #010511;
+    background: #010511;
+    background: linear-gradient(to top, #010511, #232525);
+    cursor: pointer;
+}
+
+button:hover {
+    color: #FFFFFF !important;
+    background: #232525;
+    background: linear-gradient(to top, #232525, #232525);
+}
+
+button:active {
+    background: #232525;
+}
+
+footer {
+    text-align: center;
+    background: #010511;
+    padding: 20px 0;
+}
+
+.copyright {
+    color: #bee3db;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
