@@ -2,13 +2,13 @@
         background: #555b6e;
         padding: 20px 0;
     }
-    
+
     .caixa {
         position: relative;
         width: 940px;
         margin: 0 auto;
     }
-    
+
     h1 {
         font-family: 'Orbitron', sans-serif;
         font-size: 54px;
@@ -16,12 +16,12 @@
         color: #bee3db;
         text-align: center;
     }
-    
+
     main {
         background: #89b0ae;
         padding: 20px 0;
     }
-    
+
     .caixatexto {
         background: url(../Imagens/digimundo.jpg);
         position: relative;
@@ -35,7 +35,7 @@
         border: 5px ridge #555b6e;
         border-radius: 10px;
     }
-    
+
     .caixatexto p {
         text-align: center;
         font-family: 'STIX Two Text', serif;
@@ -43,27 +43,26 @@
         padding: 26px 20px;
         font-style: italic;
     }
-    
+
     .digitamas {
         display: flex;
         justify-content: center;
         margin-top: 30px;
         margin-bottom: 30px;
     }
-    
+
     .digitamas li {
         margin-left: 1%;
         margin-right: 1%;
     }
-    
+
     #img {
         width: 200px;
         height: 200px;
         box-sizing: border-box;
         border: 5px solid #555b6e;
     }
-    
-    
+
     li p {
         text-align: center;
         font-family: 'STIX Two Text', serif;
@@ -72,26 +71,26 @@
         margin-top: 10px;
         font-size: 22px;
     }
-    
+
     footer {
         text-align: center;
         background: #555b6e;
         padding: 20px 0;
     }
-    
+
     .copyright {
         color: #bee3db;
         font-size: 13px;
         margin: 20px 0 0;
     }
-    
+
     .botao {
         display: flex;
         justify-content: center;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    
+
     button {
         font-family: helvetica;
         color: #FFFFFF !important;
@@ -105,13 +104,13 @@
         background: linear-gradient(to top, #555B6E, #63B8EE);
         cursor: pointer;
     }
-    
+
     button:hover {
         color: #FFFFFF !important;
         background: #63B8EE;
         background: linear-gradient(to top, #63B8EE, #63B8EE);
     }
-    
+
     button:active {
         background: #555B6E;
     }

@@ -13,7 +13,7 @@ h1 {
     font-family: 'Orbitron', sans-serif;
     font-size: 54px;
     text-transform: uppercase;
-    color:#bee3db;
+    color: #bee3db;
     text-align: center;
 }
 
@@ -52,6 +52,7 @@ main {
     font-size: 22px;
     padding: 26px 20px;
 }
+
 .botao {
     display: flex;
     justify-content: center;
@@ -87,7 +88,6 @@ footer {
     text-align: center;
     background: #555b6e;
     padding: 20px 0;
-
 }
 
 .copyright {
@@ -95,4 +95,3 @@ footer {
     font-size: 13px;
     margin: 20px 0 0;
 }
-

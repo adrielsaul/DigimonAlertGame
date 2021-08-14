@@ -22,9 +22,7 @@ main {
     padding: 20px 0;
 }
 
-.culumon {
-    width: 500px;
-    height: 358px;
+.holyangemon {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -46,6 +44,12 @@ main {
     border-radius: 10px;
 }
 
+.caixatexto:hover {
+    color: #FFFFFF !important;
+    background: #555b6e;
+    cursor: pointer;
+}
+
 .caixatexto p {
     text-align: center;
     font-family: 'STIX Two Text', serif;
@@ -53,36 +57,20 @@ main {
     padding: 26px 20px;
 }
 
-.botao {
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
-    margin-bottom: 100px;
-}
-
-button {
-    font-family: helvetica;
-    color: #FFFFFF !important;
-    font-size: 18px;
-    text-shadow: 1px 1px 0px #555B6E;
-    box-shadow: 1px 1px 1px #555B6E;
-    padding: 7px 23px;
-    border-radius: 14px;
-    border: 2px solid #555B6E;
-    background: #555B6E;
-    background: linear-gradient(to top, #555B6E, #63B8EE);
-    cursor: pointer;
-}
-
-button:hover {
-    color: #FFFFFF !important;
-    background: #63B8EE;
-    background: linear-gradient(to top, #63B8EE, #63B8EE);
+.myotismon {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 25px 0;
 }
 
 footer {
     text-align: center;
-    background: #555B6E;
+    background: #555b6e;
     padding: 20px 0;
 }
 
