@@ -1,25 +1,24 @@
-header {
-    background: #555b6e;
-    padding: 20px 0;
-}
-
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
-
 h1 {
+    background: #555b6e;
     font-family: 'Orbitron', sans-serif;
     font-size: 54px;
     text-transform: uppercase;
     color: #bee3db;
     text-align: center;
+    padding: 20px 0;
 }
 
 main {
     background: #89b0ae;
     padding: 20px 0;
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .patamon {
@@ -67,6 +66,44 @@ main {
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 20px 0;
+}
+
+.textomobile {
+    display: none;
+}
+
+.patamon2 {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .caixatexto {
+        display: none;
+    }
+    .escola {
+        display: none;
+    }
+    .patamon {
+        display: none;
+    }
+
+    .textomobile {
+        display: block;
+        text-align: center;
+        font-family: 'STIX Two Text', serif;
+        font-size: 25px;
+        padding: 26px 20px;
+    }
+
+    .imagem {
+        display: flex;
+        justify-content: center;
+    }
+    .patamon2 {
+        display: block;
+        max-height: 200px;
+        max-width: 200px;
+    }
 }
 
 footer {
