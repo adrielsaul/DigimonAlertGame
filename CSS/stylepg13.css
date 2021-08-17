@@ -1,26 +1,24 @@
-header {
-    background: #010511;
-    padding: 20px 0;
-}
-
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
-
 h1 {
+    background: #010511;
     font-family: 'Orbitron', sans-serif;
     font-size: 54px;
     text-transform: uppercase;
     color: #e60b0b;
     text-align: center;
+    padding: 20px 0;
 }
 
 main {
     background: #232525;
     padding: 20px 0;
-    height: 900px;
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .blackwargreymon {
@@ -53,10 +51,19 @@ main {
     padding: 26px 20px;
 }
 
+.textomobile {
+    display: none;
+}
+
+.imagem2 {
+    display: none;
+}
+
 .botao {
     display: flex;
     justify-content: center;
     margin-top: 80px;
+    margin-bottom: 20px;
 }
 
 button {
@@ -83,6 +90,40 @@ button:active {
     background: #232525;
 }
 
+@media (max-width: 700px) {
+    .caixatexto {
+        display: none;
+    }
+    .blackwargreymon {
+        display: none;
+    }
+    .textomobile {
+        display: block;
+        text-align: center;
+        font-family: 'STIX Two Text', serif;
+        font-size: 25px;
+        padding: 26px 20px;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .imagem2 {
+        display: flex;
+        justify-content: center;
+    }
+    .blackwargreymon2 {
+        display: block;
+        max-height: 210px;
+        max-width: 280px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .botao {
+        margin-top: 70px;
+        margin-bottom: 80px;
+    }
+}
+
 footer {
     text-align: center;
     background: #010511;
@@ -92,5 +133,5 @@ footer {
 .copyright {
     color: #bee3db;
     font-size: 13px;
-    margin: 20px 0 0;
+    margin: 10px 0 0;
 }

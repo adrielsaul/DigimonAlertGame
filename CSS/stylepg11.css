@@ -1,25 +1,24 @@
-header {
-    background: #555b6e;
-    padding: 20px 0;
-}
-
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
-
 h1 {
+    background: #555b6e;
     font-family: 'Orbitron', sans-serif;
     font-size: 54px;
     text-transform: uppercase;
     color: #bee3db;
     text-align: center;
+    padding: 20px 0;
 }
 
 main {
     background: #89b0ae;
     padding: 20px 0;
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .final {
@@ -53,6 +52,14 @@ main {
     padding: 26px 20px;
 }
 
+.textomobile {
+    display: none;
+}
+
+.imagem2 {
+    display: none;
+}
+
 .botao {
     display: flex;
     justify-content: center;
@@ -72,6 +79,7 @@ button {
     background: #555B6E;
     background: linear-gradient(to top, #555B6E, #63B8EE);
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 button:hover {
@@ -84,6 +92,42 @@ button:active {
     background: #555B6E;
 }
 
+@media (max-width: 700px) {
+    .caixatexto {
+        display: none;
+    }
+
+    .final {
+        display: none;
+    }
+
+    .textomobile {
+        display: block;
+        text-align: center;
+        font-family: 'STIX Two Text', serif;
+        font-size: 25px;
+        padding: 26px 20px;
+    }
+
+    .imagem2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .final2 {
+        display: block;
+        max-height: 180px;
+        max-width: 320px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .botao {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
 footer {
     text-align: center;
     background: #555b6e;
@@ -93,5 +137,5 @@ footer {
 .copyright {
     color: #bee3db;
     font-size: 13px;
-    margin: 20px 0 0;
+    margin: 10px 0 0;
 }
