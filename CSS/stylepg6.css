@@ -112,13 +112,15 @@ button:active {
         justify-content: center;
     }
     .devimon2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
         display: block;
         max-height: 200px;
         max-width: 200px;
     }
     .botao {
         margin-top: 60px;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
 }
 
@@ -126,7 +128,7 @@ button:active {
 footer {
     text-align: center;
     background: #010511;
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 .copyright {

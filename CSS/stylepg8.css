@@ -106,6 +106,8 @@ button:active {
         font-size: 25px;
         padding: 26px 20px;
         color: #FFFFFF;
+        margin-bottom: 30px;
+        margin-top: 30px;
     }
     .imagem2 {
         display: flex;
@@ -119,15 +121,15 @@ button:active {
         margin-bottom: 60px;
     }
     .botao {
-        margin-top: 60px;
-        margin-bottom: 60px;
+        margin-top: 70px;
+        margin-bottom: 80px;
     }
 }
 
 footer {
     text-align: center;
     background: #010511;
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 .copyright {

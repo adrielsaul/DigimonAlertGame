@@ -85,12 +85,15 @@ main {
     .caixatexto {
         display: none;
     }
+
     .holyangemon {
         display: none;
     }
+
     .angewomon {
         display: none;
     }
+
     .textomobile {
         display: block;
         text-align: center;
@@ -98,20 +101,27 @@ main {
         font-size: 25px;
         padding: 26px 20px;
     }
+
     .imagem3 {
         display: flex;
         justify-content: center;
     }
+
     .holyangemon2 {
         display: block;
         max-height: 300px;
         max-width: 168px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
+
     .botao {
         display: flex;
         justify-content: center;
-        margin-top: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
+
     button {
         font-family: helvetica;
         color: #FFFFFF !important;
@@ -139,7 +149,7 @@ main {
 footer {
     text-align: center;
     background: #555b6e;
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 .copyright {
