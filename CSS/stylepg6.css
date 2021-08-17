@@ -1,26 +1,24 @@
-header {
-    background: #010511;
-    padding: 20px 0;
-}
-
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
-
 h1 {
+    background: #010511;
     font-family: 'Orbitron', sans-serif;
     font-size: 54px;
     text-transform: uppercase;
     color: #e60b0b;
     text-align: center;
+    padding: 20px 0;
 }
 
 main {
     background: #232525;
     padding: 20px 0;
-    height: 900px;
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .devimon {
@@ -55,10 +53,19 @@ main {
     padding: 26px 20px;
 }
 
+.textomobile {
+    display: none;
+}
+
+.imagem2 {
+    display: none;
+}
+
 .botao {
     display: flex;
     justify-content: center;
     margin-top: 60px;
+    margin-bottom: 50px;
 }
 
 button {
@@ -84,6 +91,37 @@ button:hover {
 button:active {
     background: #232525;
 }
+
+@media (max-width: 700px) {
+    .caixatexto {
+        display: none;
+    }
+    .devimon {
+        display: none;
+    }
+    .textomobile {
+        display: block;
+        text-align: center;
+        font-family: 'STIX Two Text', serif;
+        font-size: 25px;
+        padding: 26px 20px;
+        color: #FFFFFF;
+    }
+    .imagem2 {
+        display: flex;
+        justify-content: center;
+    }
+    .devimon2 {
+        display: block;
+        max-height: 200px;
+        max-width: 200px;
+    }
+    .botao {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+}
+
 
 footer {
     text-align: center;
