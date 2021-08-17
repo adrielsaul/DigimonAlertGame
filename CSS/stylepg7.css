@@ -109,8 +109,8 @@ main {
 
     .holyangemon2 {
         display: block;
-        max-height: 300px;
-        max-width: 168px;
+        max-height: 168px;
+        max-width: 300px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
