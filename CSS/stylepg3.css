@@ -1,25 +1,24 @@
-header {
-    background: #555b6e;
-    padding: 20px 0;
-}
-
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
-
 h1 {
+    background: #555b6e;
     font-family: 'Orbitron', sans-serif;
     font-size: 54px;
     text-transform: uppercase;
     color: #bee3db;
     text-align: center;
+    padding: 20px 0;
 }
 
 main {
     background: #89b0ae;
     padding: 20px 0;
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .angemon {
@@ -68,6 +67,74 @@ main {
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 25px 0;
+}
+
+.textomobile{
+    display: none;
+}
+
+.angemon2 {
+    display: none;
+}
+
+.botao {
+    display: none;
+}
+
+
+@media (max-width: 700px) {
+    .caixatexto {
+        display: none;
+    }
+    .ogremon {
+        display: none;
+    }
+    .angemon {
+        display: none;
+    }
+    .textomobile {
+        display: block;
+        text-align: center;
+        font-family: 'STIX Two Text', serif;
+        font-size: 25px;
+        padding: 26px 20px;
+    }
+    .imagem {
+        display: flex;
+        justify-content: center;
+    }
+    .angemon2 {
+        display: block;
+        max-height: 200px;
+        max-width: 200px;
+    }
+    .botao {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    button {
+        font-family: helvetica;
+        color: #FFFFFF !important;
+        font-size: 18px;
+        text-shadow: 1px 1px 0px #555B6E;
+        box-shadow: 1px 1px 1px #555B6E;
+        padding: 7px 23px;
+        border-radius: 14px;
+        border: 2px solid #555B6E;
+        background: #555B6E;
+        background: linear-gradient(to top, #555B6E, #63B8EE);
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+    button:hover {
+        color: #FFFFFF !important;
+        background: #63B8EE;
+        background: linear-gradient(to top, #63B8EE, #63B8EE);
+    }
+    button:active {
+        background: #555B6E;
+    }
 }
 
 footer {
