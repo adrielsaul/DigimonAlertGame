@@ -21,14 +21,14 @@ main {
     }
 }
 
-.culumon {
-    width: 500px;
-    height: 358px;
+.imagem1 {
+    width: 320px;
+    height: 320px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .caixatexto {
@@ -37,12 +37,18 @@ main {
     width: 750px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 25px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     padding: 20px 0;
     box-sizing: border-box;
     border: 2px solid #555b6e;
     border-radius: 10px;
+}
+
+.caixatexto:hover {
+    color: #FFFFFF !important;
+    background: #555b6e;
+    cursor: pointer;
 }
 
 .caixatexto p {
@@ -56,17 +62,16 @@ main {
     display: none;
 }
 
-.imagem2 {
+.img {
     display: none;
 }
 
 .botao {
     display: flex;
     justify-content: center;
-    margin-top: 80px;
     margin-bottom: 100px;
-}
-
+    margin-top: 100px;
+} 
 button {
     font-family: helvetica;
     color: #FFFFFF !important;
@@ -79,48 +84,52 @@ button {
     background: #555B6E;
     background: linear-gradient(to top, #555B6E, #63B8EE);
     cursor: pointer;
+    margin-bottom: 10px;
 }
-
 button:hover {
     color: #FFFFFF !important;
     background: #63B8EE;
     background: linear-gradient(to top, #63B8EE, #63B8EE);
 }
+button:active {
+    background: #555B6E;
+} 
 
 @media (max-width: 700px) {
     .caixatexto {
         display: none;
     }
-
-    .culumon {
+    .imagem1 {
         display: none;
     }
-
+    h1 {
+        padding: 20px;
+    }
     .textomobile {
         display: block;
         text-align: center;
         font-family: 'STIX Two Text', serif;
         font-size: 25px;
-        padding: 26px 20px;
+        padding: 26px 26px;
     }
-
-    .imagem2 {
+    .imagem3 {
         display: flex;
         justify-content: center;
     }
-
-    .culumon2 {
+    .img {
         display: block;
-        max-height: 229px;
-        max-width: 320px;
+        max-height: 300px;
+        max-width: 300px;
+    }
+    .botao {
         margin-top: 50px;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
 }
 
 footer {
     text-align: center;
-    background: #555B6E;
+    background: #555b6e;
     padding: 20px 0;
 }
 

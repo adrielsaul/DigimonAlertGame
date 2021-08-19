@@ -22,13 +22,14 @@ main {
 }
 
 .imagem1 {
-    width: 480px;
-    height: 360px;
-    display: block;
-    margin-left: auto;
+    position: relative;
+    width: 691px;
+    height: 361px;
+    margin-left: 20%;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 15px;
     margin-bottom: 15px;
+    padding: 20px 0;
 }
 
 .caixatexto {
@@ -115,10 +116,9 @@ button:active {
     }
     .img {
         display: block;
-        max-height: 225px;
+        max-height: 169px;
         max-width: 300px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-right: 15%;
         margin-top: 60px;
         margin-bottom: 60px;
     }
